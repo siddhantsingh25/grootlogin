@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902971295008",
+    "firebase_url": "https://grootlogin.firebaseio.com",
+    "project_id": "grootlogin",
+    "storage_bucket": "grootlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902971295008:android:86882644cc8f23a8a14345",
+        "android_client_info": {
+          "package_name": "com.sid.grootlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902971295008-camm3ojhuoat2nfmcq75cfjqndbrcq6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sid.grootlogin",
+            "certificate_hash": "0074a1a69a4c9d8a4b593d6f4a25b1c3fbf0bc6a"
+          }
+        },
+        {
+          "client_id": "902971295008-5gua35l0i0m7u8g6olg5qcgq8rep3v8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt1GrjMTjRucHFqUgxeZCBZ8ZsfdleEIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902971295008-5gua35l0i0m7u8g6olg5qcgq8rep3v8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
