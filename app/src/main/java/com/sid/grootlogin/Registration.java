@@ -21,10 +21,10 @@ import android.content.Intent;
 public class Registration extends AppCompatActivity {
 
     private EditText emailTV, passwordTV;
-    private Button regBtn;
+    private Button regBtn,inputbtn;
     private ProgressBar progressBar;
-
     private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,5 +84,20 @@ public class Registration extends AppCompatActivity {
         regBtn = findViewById(R.id.register);
         progressBar = findViewById(R.id.progressBar);
 
+        inputbtn = (Button) findViewById(R.id.button22);
+
+        // Capture button clicks
+        inputbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(Registration.this, MainActivity.class);
+                startActivity(myIntent);
+            }
+            });
+        }
+
     }
-}
+
+    //fff
+
+

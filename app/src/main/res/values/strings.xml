@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">grootlogin</string>
+    <string name="app_name">Groot Restaurant</string>
+    <string name="title_activity_order_details">orderDetails</string>
+    <string name="place_order">Place Order</string>
+    <string name="title_activity_booking">BookingActivity</string>
+
+
+    <string name="table_prompt">Choose a Table</string>
+
+    <string-array name="table_arrays">
+        <item>Table 1</item>
+        <item>Table 2</item>
+        <item>Table 3</item>
+        <item>Table 4</item>
+        <item>Table 5</item>
+        <item>Table 6</item>
+        <item>Table 7</item>
+        <item>Table 8</item>
+    </string-array>
+
+    <string name="time_slot">Choose Time Slot</string>
+
+    <string-array name="time_arrays">
+        <item>10.00 AM - 11.00 AM</item>
+        <item>11.00 AM - 12.00 PM</item>
+        <item>12.00 PM - 01.00 PM</item>
+        <item>01.00 PM - 02.00 PM</item>
+        <item>04.00 PM - 05.00 PM</item>
+        <item>06.00 PM - 07.00 PM</item>
+        <item>07.00 PM - 09.00 PM</item>
+        <item>09.00 PM - 11.00 PM</item>
+    </string-array>
+    <string name="title_activity_order">orderActivity</string>
+
 </resources>

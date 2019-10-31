@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Login successful!", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
 
-                            Intent intent = new Intent(MainActivity.this, Dashboard.class);
+                            Intent intent = new Intent(MainActivity.this, BookingActivity.class);
                             startActivity(intent);
                         }
                         else {
